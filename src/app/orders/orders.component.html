@@ -1,7 +1,5 @@
 <h3>ORDERS</h3>
 
-<pre>{{ order$ | async | json }}</pre>
-
 <section>
   <ul>
     @for(order of (order$ | async); track order.id){
